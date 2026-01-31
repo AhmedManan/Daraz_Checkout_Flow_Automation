@@ -1,4 +1,4 @@
-# BrainStation 23 QA Automation Task
+# Daraz Checkout Flow QA Automation Task
 
 In this repository I have conduct Automation tests on Daraz Bangladesh web application. To conduct the tests I used Python, Pytest, Playwright. I implemented POM (page object model) structure.
 
