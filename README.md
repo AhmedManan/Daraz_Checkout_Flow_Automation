@@ -4,6 +4,12 @@ In this repository I have conduct Automation tests on Daraz Bangladesh web appli
 
 Project Video Link: https://youtu.be/uRZ63obmo-k
 
+# Table of Content
+- [Project Setup](#Project-Setup)
+- [Tests](#Tests)
+
+## Project Setup
+
 ## Tests
 | Serial | Script Name / Details             | Status                   |
 |--------|-----------------------------------|--------------------------|
