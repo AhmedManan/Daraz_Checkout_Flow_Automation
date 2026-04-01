@@ -44,6 +44,20 @@ user_phone_no='your user phone number'
 user_password='your password'
 ```  
 
+### Run Tests
+To execute the entire test suite across all configured browsers (Chromium, Firefox, WebKit) run command:
+```bash
+npx playwright test
+```   
+Run only the tests within the ```plugin.spec.js``` file:
+```bash
+npx playwright test tests/plugin.spec.js
+``` 
+To open the browser and visually watch the tests execute (useful for debugging):
+```bash
+npx playwright test --headed
+``` 
+
 ## Tests
 | Serial | Script Name / Details             | Status                   |
 |--------|-----------------------------------|--------------------------|
