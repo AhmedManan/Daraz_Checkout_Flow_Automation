@@ -58,6 +58,29 @@ To open the browser and visually watch the tests execute (useful for debugging):
 npx playwright test --headed
 ``` 
 
+### Report Generation
+ HTML reports are excellent for visually reviewing test results. The most popular plugin for this is pytest-html. First, install the plugin from terminal:
+ ```bash
+ pip install pytest-html
+```
+Generating an Allure Report provides a rich, interactive, and visually appealing summary of your test execution results. Here is how to set up and generate an Allure Report, specifically using Pytest (Python) as the example framework.
+First, install it from terminal:
+ ```bash
+ pip install allure-pytest
+```
+Use the allure generate command to process the raw results into an HTML report structure.
+ ```bash
+ pytest--alluredir=reports/allure-results
+```
+Use the allure generate command to process the raw results into an HTML report structure.
+ ```bash
+ allure generate reports/allure-results-o reports/allure-report
+```
+The easiest way to view the report locally is to use the allure serve command, which starts a local web server and opens the report in your default browser.
+ ```bash
+allure serve reports/allure-results
+```
+
 ## Tests
 | Serial | Script Name / Details             | Status                   |
 |--------|-----------------------------------|--------------------------|
