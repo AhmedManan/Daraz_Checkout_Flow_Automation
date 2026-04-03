@@ -23,8 +23,6 @@ class TestAddItemsToCart:
         landing_page.verify_user_login()
 
         # Search Verification
-        # page.get_by_role("searchbox", name="Search in Daraz").click()
-        # page.get_by_role("searchbox", name="Search in Daraz").fill("Samsung Galaxy S23")
         landing_page.fill_searchbox()
         landing_page.click_search()
 
